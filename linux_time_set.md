@@ -8,7 +8,7 @@ And to see the changes, look for RTC in local TZ: yes
 timedatectl
 ```
 
-To undo the operation, make RTF as false
+To undo the operation, make RTF false
 ```
 timedatectl set-local-rtc 0 --adjust-system-clock
  ```
