@@ -34,3 +34,10 @@ jnote() {
 	jupyter notebook $@
 }
 ```
+
+## auto-complete
+mac's terminal has a case sentitive auto-complete and today is the day you'll fix it
+
+```
+echo "set completion-ignore-case On" >> ~/.inputrc
+```
